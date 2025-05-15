@@ -22,11 +22,8 @@ connectfile="/glade/work/huili7/hk25/grids/connect_healpix_grid_zoom_8_format_ex
 
 
 # TC files
-tc_detected_nodes=${output_dir}/${shortname}".tc_detected_nodes.txt"
-tc_stitched_nodes=${output_dir}/${shortname}".tc_stitched_nodes.txt"
-tc_filtered_nodes_file=${output_dir}/${shortname}".tc_filtered_nodes.nc"
-tc_filtered_nodes_list=${output_dir}/${shortname}".tc_filtered_nodes.txt"
-tc_climatology=${output_dir}/${shortname}".tc_climatology.nc"
+tc_detected_nodes=${output_dir}/${shortname}".tc_detected_nodes.csv"
+tc_stitched_nodes=${output_dir}/${shortname}".tc_stitched_nodes.csv"
 
 # DetectNodes --in_data ${inputfile} --out ${tc_detected_nodes} \
 # 	    --searchbymin mslp --closedcontourcmd "mslp,200.0,5.5,0;_DIFF(height_250hPa,height_500hPa),-6.0,6.5,1.0" \
